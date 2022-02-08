@@ -80,15 +80,8 @@ public class CarRunner
         System.out.println("   Actual: " + actInv);
     }
 
-    Car carOne = new Car("Toyato", 823048023);
-    Car carTwo = new Car("Lambo", 823048023);
-    Car carThree = new Car("ThreeWheeler", 823048023);
 
-    Car[] carArray2 = {carOne, carTwo, carThree};
-
-    ArrayList<Car> carArray = new ArrayList<Car>(Arrays.asList(carArray2));
-
-    System.out.println(carArray);
+    System.out.println("ratioed");
 
 
 
